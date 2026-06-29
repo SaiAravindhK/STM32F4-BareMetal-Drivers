@@ -42,7 +42,7 @@ To ensure data integrity and timing accuracy at the silicon level, all communica
 ![SPI Trace](assets/SPI_FULL_TESTING_OP.png)
 
 **I2C Interrupt-Driven Communication:**
-![I2C Trace](assets/I2C_interrupt_transfer.png)
+![I2C Trace](assets/I2C_FULL_TESTING_OP.png)
 
 **USART Polling & Interrupt Context Switching:**
-![USART Trace](assets/UART_echo_test.png)
+![USART Trace](assets/UART_FULL_TESTING_OP.png)
