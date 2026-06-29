@@ -37,11 +37,11 @@ The driver stack was validated using a physical Hardware-in-the-Loop test fixtur
 ## Logic Analyzer Verification
 To ensure data integrity and timing accuracy at the silicon level, all communication buses were verified using a logic analyzer and PulseView.
 
-**SPI Full-Duplex Transfer:**
+**SPI:**
 ![SPI Trace](assets/SPI_FULL_TESTING_OP.png)
 
-**I2C Interrupt-Driven Communication:**
+**I2C:**
 ![I2C Trace](assets/I2C_FULL_TESTING_OP.png)
 
-**USART Polling & Interrupt Context Switching:**
+**USART:**
 ![USART Trace](assets/UART_FULL_TESTING_OP.png)
