@@ -1,3 +1,4 @@
+# STM32F401RE Bare-Metal Hardware Abstraction Layer (HAL)
 This repository contains a custom, from-scratch bare-metal hardware abstraction layer for the STM32F401RE microcontroller. The driver stack was developed directly from the MCU reference manual without relying on ST's HAL or LL libraries, ensuring minimal overhead and deep hardware-level control.
 
 ## Core Features & Architecture
