@@ -1,4 +1,4 @@
-# STM32F401RE Bare-Metal Hardware Abstraction Layer (HAL)
+<img width="1912" height="812" alt="image" src="https://github.com/user-attachments/assets/d7c7c2e6-6c31-4fc7-94d1-04692841f763" /># STM32F401RE Bare-Metal Hardware Abstraction Layer (HAL)
 
 This repository contains a custom, from-scratch bare-metal hardware abstraction layer for the STM32F401RE microcontroller. The driver stack was developed directly from the MCU reference manual without relying on ST's HAL or LL libraries, ensuring minimal overhead and deep hardware-level control.
 
@@ -39,10 +39,10 @@ The driver stack was validated using a physical Hardware-in-the-Loop test fixtur
 To ensure data integrity and timing accuracy at the silicon level, all communication buses were verified using a logic analyzer and PulseView.
 
 **SPI Full-Duplex Transfer:**
-![SPI Trace](assets/spi_logic_analyzer.png)
+![SPI Trace](assets/SPI_FULL_TESTING_OP.png)
 
 **I2C Interrupt-Driven Communication:**
-![I2C Trace](assets/i2c_interrupt_transfer.png)
+![I2C Trace](assets/I2C_interrupt_transfer.png)
 
 **USART Polling & Interrupt Context Switching:**
-![USART Trace](assets/usart_echo_test.png)
+![USART Trace](assets/UART_echo_test.png)
